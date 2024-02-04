@@ -24,8 +24,10 @@ window.addEventListener("load", () => {
 // Debug
 const debugObject = {}
 const gui = new GUI({
-    width: 250
+    width: 250,
 })
+
+gui.close()
 
 // Canvas
 const canvas = document.querySelector('canvas.webgl')
